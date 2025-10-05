@@ -1,0 +1,81 @@
+Build me a Portfolio Web App using Django REST Framework (Backend) and HTML (Frontend) with HTML + Tailwind CSS for styling.
+
+General Theme & Style
+
+Modern UI
+
+Color palette: Black (#000000) and Pink (#ff2e92)
+
+Smooth animations: hover effects, transitions, and page load fade-ins.
+
+Responsive Design: Mobile-first with grid/flex layouts.
+
+Pages & Features
+
+Landing Page
+
+Hero section: Name, title, and portfolio description.
+Developer Team : Description, and 3 members
+
+Smooth scrolling navigation bar.
+
+"View Projects" and "Contact Me" buttons with hover animations.
+
+Authentication System
+
+User registration & login with JWT authentication .
+
+2FA (Two-Factor Authentication): Send code to email/OTP app for extra security.
+
+Cipher Tools Page
+
+Implement classic ciphers: Atbash, Caesar, and Vigenère. (with result have QR code generated)
+
+Input/output fields with encryption/decryption toggle.
+
+Copy-to-clipboard button with animation.
+
+Fun Zone Page
+
+Joke API integration (fetch jokes from an external API).
+
+Display joke with animated card UI.
+
+Option to generate a QR code of the joke for sharing.
+
+Automation Features
+
+Scheduled task runner (e.g., Django Celery) for:
+
+Sending automated portfolio stats (e.g., views, contact form submissions).
+
+Daily motivational quotes emailed to registered users.
+
+Portfolio Showcase Page (Connect to github: https://github.com/barbiepenafiel)
+
+Grid-based project gallery.
+
+Each project card: thumbnail, short description, tech stack tags.
+
+Smooth hover animations with pink glow effect.
+
+Contact Page
+
+Contact form integrated with Django API.
+
+Email notification sent automatically to gmail of barbiepenafiel2019@gmail.com
+
+QR code of contact details (vCard).
+
+Tech Stack
+
+Backend: Django + Django REST Framework, Celery (for automation), QRCode library.
+
+Frontend: HTML + Tailwind CSS + Framer Motion (for animations).
+
+Database: Mongodb
+
+Auth: JWT + 2FA with Django OTP/email verification.
+
+Add Swagger
+Add Login : Facebook and google account
