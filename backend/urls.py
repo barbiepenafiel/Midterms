@@ -44,6 +44,9 @@ urlpatterns = [
     path('api/auth/', include('authentication.urls')),
     path('api/portfolio/', include('portfolio.urls')),
     
+    # Social Authentication (Google OAuth)
+    path('auth/', include('social_django.urls', namespace='social')),
+    
     # Swagger Documentation
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
